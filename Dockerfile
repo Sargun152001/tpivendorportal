@@ -9,4 +9,4 @@ COPY . .
 EXPOSE 80
 
 # Set the entry point to run your compiled DLL
-ENTRYPOINT ["dotnet", "Alletec.pfx.WebClient.dll"]
+ENTRYPOINT ["dotnet", "Alletec.Pfx.WebClient.dll"]

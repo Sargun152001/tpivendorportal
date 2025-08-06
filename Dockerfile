@@ -1,5 +1,5 @@
-# Use official ASP.NET runtime base image for .NET 7
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+# Use official ASP.NET runtime base image for .NET 6
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 
 # Copy all files from your local directory to /app in the container
